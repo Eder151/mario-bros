@@ -1,0 +1,17 @@
+@startu Diagrama
+
+class Usuario
+class Mascota{
+    -Felici
+}
+Class Juego
+class Felicidad
+class Porcentaje
+
+usuario o--Mascota
+Mascota *--Felicidad
+Juego *--Usuarioi
+Juego *--Mascota 
+Felicidad --|> Porcentaje
+
+@enduml.
