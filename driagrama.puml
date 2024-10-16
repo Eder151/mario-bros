@@ -14,4 +14,4 @@ Juego *--Usuarioi
 Juego *--Mascota 
 Felicidad --|> Porcentaje
 
-@enduml.
+@enduml
