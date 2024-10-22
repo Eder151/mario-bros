@@ -2,11 +2,19 @@
 
 class Usuario
 class Mascota{
-    -Felici
+    -Felicidad Felicidad
+    +Pesear()
 }
-Class Juego
+Class Juego{
+    -class Felicidad
+    -class Porcentaje
+}
 class Felicidad
-class Porcentaje
+class Porcentaje{
+    -Numero numero
+    +Incrementar(Numero)
+    +Disminuir(Numero)
+}
 
 usuario o--Mascota
 Mascota *--Felicidad
